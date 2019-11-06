@@ -7,13 +7,13 @@ public class TestEasy {
     @Test
     public void binarySort() {
         int v[] = new int[]{1, 2, 3, 4, 5};
-        assertEquals(1, EasyAlgorithms.binarySearch(v, 2));
+        assertEquals(1, BinarySearch.binarySearch(v, 2));
 
         v = new int[]{};
-        assertEquals(-1, EasyAlgorithms.binarySearch(v, 2));
+        assertEquals(-1, BinarySearch.binarySearch(v, 2));
 
         v = new int[]{2};
-        assertEquals(0, EasyAlgorithms.binarySearch(v, 2));
+        assertEquals(0, BinarySearch.binarySearch(v, 2));
 
     }
 
